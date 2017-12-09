@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BlockMovement : MonoBehaviour {
 	static bool delete;
+
 	// Use this for initialization
 	void Start () {
 		delete = false;
@@ -11,7 +12,7 @@ public class BlockMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		
 		// Create random variable
 		float xPos = Random.Range (-7, 7);
 		float yVel = Random.Range (9, 14);
@@ -34,6 +35,8 @@ public class BlockMovement : MonoBehaviour {
 			delete = true;
 		} else if (this.transform.position.y < -6 && delete==true) {
 			Destroy (gameObject);
+			GameObject.Find ("Player").GetComponent<Player> ().getDamaged ();
+
 		}
 
 		// Throw object upwards 
@@ -45,6 +48,7 @@ public class BlockMovement : MonoBehaviour {
 	void OnMouseOver() {
 		if (Input.GetMouseButtonDown (0)) 
 		{
+			//player.GetComponent<Player> ().getHealed ();
 			Destroy (gameObject);
 		} 
 	}
