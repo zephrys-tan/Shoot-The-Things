@@ -30,4 +30,9 @@ public class Player : MonoBehaviour {
 	{
 		health.CurrentAmmo -= 1;
 	}
+
+	public void getAmmo()
+	{
+		health.CurrentAmmo += 6;
+	}
 }

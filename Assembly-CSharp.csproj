@@ -57,6 +57,8 @@
      <Compile Include="Assets\Crossheir.cs" />
      <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\Game.cs" />
+     <Compile Include="Assets\ItemMovement.cs" />
+     <Compile Include="Assets\ItemSpawner.cs" />
      <Compile Include="Assets\Player.cs" />
      <Compile Include="Assets\Stat.cs" />
  <Reference Include="UnityEngine.UI">
