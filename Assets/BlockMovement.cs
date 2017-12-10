@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BlockMovement : MonoBehaviour {
 	static bool delete;
+	public GameObject Explosion;
 
 	// Use this for initialization
 	void Start () {
@@ -49,7 +50,15 @@ public class BlockMovement : MonoBehaviour {
 		if (Input.GetMouseButtonDown (0)) 
 		{
 			//player.GetComponent<Player> ().getHealed ();
+			Explode ();
 			Destroy (gameObject);
 		} 
+	}
+
+	void Explode()
+	{
+		GameObject explosion = (GameObject)Instantiate (Explosion);
+
+		explosion.transform.position = transform.position;
 	}
 }

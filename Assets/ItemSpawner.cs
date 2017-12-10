@@ -16,6 +16,15 @@ public class ItemSpawner : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetMouseButtonDown (1)) 
+		{
+			var items = GameObject.FindGameObjectsWithTag("Item");
+			foreach(var item in items)
+			{
+				Destroy(item);
+				GameObject.Find ("Player").GetComponent<Player> ().getAmmo ();
+			}
+		}
 		//if(Input.GetMouseButtonDown(0)) GameObject.Find ("Player").GetComponent<Player> ().doShoot ();
 	}
 

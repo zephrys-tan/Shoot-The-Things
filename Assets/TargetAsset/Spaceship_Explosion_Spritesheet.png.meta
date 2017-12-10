@@ -1,9 +1,18 @@
 fileFormatVersion: 2
-guid: 26e093efea73f2447a8737510b27a125
-timeCreated: 1512845056
+guid: 7c9ddc52a91b12044b2eca15c5d03d2f
+timeCreated: 1512895714
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Spaceship_Explosion_Spritesheet_0
+    21300002: Spaceship_Explosion_Spritesheet_1
+    21300004: Spaceship_Explosion_Spritesheet_2
+    21300006: Spaceship_Explosion_Spritesheet_3
+    21300008: Spaceship_Explosion_Spritesheet_5
+    21300010: Spaceship_Explosion_Spritesheet_4
+    21300012: Spaceship_Explosion_Spritesheet_6
+    21300014: Spaceship_Explosion_Spritesheet_7
+    21300016: Spaceship_Explosion_Spritesheet_8
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -65,9 +74,153 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spaceship_Explosion_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 886
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spaceship_Explosion_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 890
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spaceship_Explosion_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 886
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spaceship_Explosion_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 485
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spaceship_Explosion_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 487
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spaceship_Explosion_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 484
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spaceship_Explosion_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 87
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spaceship_Explosion_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 87
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spaceship_Explosion_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 87
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
